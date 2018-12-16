@@ -1,0 +1,142 @@
+@font-face {
+	font-family: "AvenirNext Bold";
+	src: url('fonts/AvenirNext-Bold.ttf');
+}
+
+
+main {
+	margin: auto;
+	max-width: 799px;
+	min-height: 600px;
+	min-width: 204px;
+	background-image: url(img/background.png);
+	background-position: center;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	padding: 100px 98px;
+}
+
+.weather-big-section {
+	width: 200px;
+	height: 200px;
+	display: block;
+	float: left;
+	margin: 0;
+	background-color: #06B3DB;
+	font-family: "AvenirNext Bold", Arial;
+	font-size: 16px;
+	color: #ffffff;
+	border: 1px outset rgba(0, 0, 0, 0.17); 
+	text-transform: uppercase;
+	text-align: center;
+}
+
+main .weather-big-section:nth-child(2) {
+	background-color: #4ed486;
+}
+main .weather-big-section:nth-child(3) {
+	background-color: #6139f6;
+}
+main .weather-big-section:nth-child(4) {
+	background-color: #e3b63d;
+}
+main .weather-big-section:nth-child(5) {
+	justify-content: space-between;
+	background-color: #dc3d66;
+}
+main .weather-big-section:nth-child(6) {	
+	background-color: #bd54cd;
+}
+
+main .weather-big-section img {
+	display: block;
+	margin: 0 auto 28px auto;
+	padding-top: 30px;
+}
+
+main .weather-big-section span {
+	font-size: 16px;
+	margin: auto;
+	text-align: center;
+	padding: 0;
+}
+
+#weather-of-the-week {
+	width: 100%;
+	height: 94px;
+	background-color: #bd3559;
+	padding-top: 12px;
+	font-size: 12px;
+	
+}
+
+main .weather-big-section:nth-child(5) img {
+	height: 65px;
+	margin-bottom: 10px;
+}
+
+
+main .days-of-the-week {
+	font-size: 12px;
+	text-align: center;
+	display: block;
+	float: left;
+	padding-left: 10px;
+	margin: 0 12px 0 0;
+}
+
+main .weather-big-section .days-of-the-week img {
+	height: 20px;
+	padding-top: 0;
+	margin: 10.25px auto;
+}
+
+main .weather-big-section .days-of-the-week span {
+	font-size: 12px;
+}
+
+main, .weather-big-section, #weather-of-the-week {
+	box-sizing: border-box;
+}
+
+@media (max-width: 812px) {
+	main {
+		padding: 98px 50px;
+	}
+}
+@media (max-width: 718px) {
+	main {
+		padding: 98px 10px;
+	}
+}
+@media (max-width: 638px) {
+	main {
+		padding: 98px;
+	}
+}
+@media (max-width: 630px) {
+	main {
+		padding: 98px 60px;
+	}
+}
+@media (max-width: 553px) {
+	main {
+		padding: 98px 10px;
+	}
+}
+@media (max-width: 452px) {
+	main {
+		padding: 98px;
+	}
+}
+@media (max-width: 386px) {
+	main {
+		padding: 98px 60px;
+	}
+}
+@media (max-width: 310px) {
+	main {
+		padding: 98px 10px;
+	}
+}
